@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculator_02</string>
+    <string name="N_8">8</string>
+    <string name="N_0">0</string>
+    <string name="N_equal">=</string>
+    <string name="N_dot">.</string>
+    <string name="N_x">x</string>
+    <string name="N_sum">+</string>
+    <string name="N_3">3</string>
+    <string name="N_2">2</string>
+    <string name="N_4">4</string>
+    <string name="N_7">7</string>
+    <string name="N_sub">-</string>
+    <string name="N_1">1</string>
+    <string name="N_6">6</string>
+    <string name="N_5">5</string>
+    <string name="N_C">C</string>
+    <string name="N_div">:</string>
+    <string name="N_9">9</string>
+</resources>

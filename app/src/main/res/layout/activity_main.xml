@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A5757"
+    tools:context=".MainActivity"
+    >
+    <!-- Table layout dùng để dễ phân chia bố cục các element: Quang(10h30 ngày 9/3/2022)  -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        >
+        <!-- EditText để nhập số giới hạn 10 ký tự: Nhân (11h30 9/3/2022)-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="number"
+            android:minHeight="100dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textFontWeight="80"
+            android:maxLength="10"
+            android:textSize="60sp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:id="@+id/editTextNum"
+            android:importantForAutofill="no" />
+        <!-- Row số thứ nhất:  Quang (12h10 9/3/2022)      -->
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+            <!--   Nút số 7:  Quang (12h10 9/3/2022)         -->
+            <Button android:text="@string/N_7"
+                android:id="@+id/N7"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--   Nút số 8:  Quang (12h10 9/3/2022)         -->
+            <Button android:text="@string/N_8"
+                android:id="@+id/N8"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--   Nút số 9:  Quang (12h10 9/3/2022)         -->
+            <Button android:text="@string/N_9"
+                android:id="@+id/N9"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--   Nút chia: Quang (12h10 9/3/2022)         -->
+            <Button android:text="@string/N_div"
+                android:id="@+id/N_div"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell_spec"
+
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+        <!-- Row số thứ hai:  Nhân (12h10 9/3/2022)      -->
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+            <!--  Nút số 4: Nhân (12h10 9/3/2022) -->
+            <Button android:text="@string/N_4"
+                android:id="@+id/N4"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--  Nút số 5: Nhân (12h10 9/3/2022) -->
+
+            <Button android:text="@string/N_5"
+                android:id="@+id/N5"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--  Nút số 6: Nhân (12h10 9/3/2022) -->
+            <Button android:text="@string/N_6"
+                android:id="@+id/N6"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!--  Nút nhân: Nhân (12h10 9/3/2022) -->
+            <Button android:text="@string/N_x"
+                android:id="@+id/N_mul"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell_spec"
+
+                style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+        <!-- Row số thứ ba:  Nhân (12h15 9/3/2022)      -->
+
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+            <!-- Nút số 1:  Nhân (12h15 9/3/2022)      -->
+
+            <Button android:text="@string/N_1"
+                android:id="@+id/N1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút số 2:  Nhân (12h15 9/3/2022)      -->
+            <Button android:text="@string/N_2"
+                android:id="@+id/N2"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút số 3:  Nhân (12h15 9/3/2022)      -->
+            <Button android:text="@string/N_3"
+                android:id="@+id/N3"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút trừ:  Nhân (12h15 9/3/2022)      -->
+            <Button android:text="@string/N_sub"
+                android:id="@+id/N_sub"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell_spec"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+        <!-- Row số thứ tư:  Quang (12h20 9/3/2022)      -->
+
+        <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+            <!-- Nút số 0:  Quang (12h20 9/3/2022)      -->
+
+            <Button android:text="@string/N_0"
+                android:id="@+id/N0"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:layout_span="2"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút . :  Quang (12h20 9/3/2022)      -->
+
+            <Button android:text="@string/N_dot"
+                android:id="@+id/N_dot"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút dấu +:  Quang (12h20 9/3/2022)      -->
+
+            <Button android:text="@string/N_sum"
+                android:id="@+id/N_sum"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:background="@drawable/event_cell_spec"
+                style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+        <!-- Row số thứ năm:  Nhân (12h25 9/3/2022)      -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <!-- Nút Xoá:  Nhân (12h25 9/3/2022)      -->
+
+            <Button
+                android:id="@+id/NC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                android:background="@drawable/event_cell_spec"
+                android:text="@string/N_C"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                style="?android:attr/buttonBarButtonStyle" />
+            <!-- Nút = :  Nhân (12h25 9/3/2022)      -->
+
+            <Button
+                android:id="@+id/N_equal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                android:background="@drawable/event_cell_spec"
+                android:text="@string/N_equal"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
